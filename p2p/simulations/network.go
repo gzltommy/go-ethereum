@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
+	"github.com/gzltommy/go-ethereum/event"
+	"github.com/gzltommy/go-ethereum/log"
+	"github.com/gzltommy/go-ethereum/p2p"
+	"github.com/gzltommy/go-ethereum/p2p/enode"
+	"github.com/gzltommy/go-ethereum/p2p/simulations/adapters"
 )
 
 var DialBanTimeout = 200 * time.Millisecond

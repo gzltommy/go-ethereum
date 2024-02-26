@@ -21,13 +21,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gzltommy/go-ethereum/common"
+	"github.com/gzltommy/go-ethereum/consensus/ethash"
+	"github.com/gzltommy/go-ethereum/core/rawdb"
+	"github.com/gzltommy/go-ethereum/core/types"
+	"github.com/gzltommy/go-ethereum/crypto"
+	"github.com/gzltommy/go-ethereum/ethdb"
+	"github.com/gzltommy/go-ethereum/params"
 )
 
 // TestTxIndexer tests the functionalities for managing transaction indexes.

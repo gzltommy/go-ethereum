@@ -33,13 +33,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
 	pcsc "github.com/gballet/go-libpcsclite"
+	"github.com/gzltommy/go-ethereum"
+	"github.com/gzltommy/go-ethereum/accounts"
+	"github.com/gzltommy/go-ethereum/common"
+	"github.com/gzltommy/go-ethereum/core/types"
+	"github.com/gzltommy/go-ethereum/crypto"
+	"github.com/gzltommy/go-ethereum/log"
 	"github.com/status-im/keycard-go/derivationpath"
 )
 

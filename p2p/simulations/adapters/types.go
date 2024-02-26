@@ -25,15 +25,15 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/reexec"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gorilla/websocket"
+	"github.com/gzltommy/go-ethereum/crypto"
+	"github.com/gzltommy/go-ethereum/internal/reexec"
+	"github.com/gzltommy/go-ethereum/log"
+	"github.com/gzltommy/go-ethereum/node"
+	"github.com/gzltommy/go-ethereum/p2p"
+	"github.com/gzltommy/go-ethereum/p2p/enode"
+	"github.com/gzltommy/go-ethereum/p2p/enr"
+	"github.com/gzltommy/go-ethereum/rpc"
 	"golang.org/x/exp/slog"
 )
 

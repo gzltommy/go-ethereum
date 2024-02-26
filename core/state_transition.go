@@ -21,12 +21,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto/kzg4844"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gzltommy/go-ethereum/common"
+	cmath "github.com/gzltommy/go-ethereum/common/math"
+	"github.com/gzltommy/go-ethereum/core/types"
+	"github.com/gzltommy/go-ethereum/core/vm"
+	"github.com/gzltommy/go-ethereum/crypto/kzg4844"
+	"github.com/gzltommy/go-ethereum/params"
 	"github.com/holiman/uint256"
 )
 
